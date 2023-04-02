@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color:hsla(50, 18%, 38%, 0.75);
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top img {
+  border-radius: 4px;
+  width: 4rem;
+}
+.top p {
+  color: white;
+  margin-top: 12px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 300;
+}
+.title {
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+}
+.title i {
+  color: rgb(217, 240, 15);
+  margin: 10px;
+}
+.input {
+  margin-top: 9px;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.input spam {
+  position: absolute;
+  cursor: pointer;
+  right: 40.5%;
+  margin-top: 12px;
+  color: rgb(6, 6, 224);
+}
+.input-field {
+  width: 16rem;
+  height: 2rem;
+  border-radius: 7px;
+  border-style: none;
+  padding: 5px;
+}
+.output {
+  display: flex;
+  flex-direction: row;
+}
+.output-field {
+  width: 16rem;
+  height: 2rem;
+  border-radius: 7px;
+  border-style: none;
+  margin-top: 15px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(80, 91, 209);
+  /* margin-left: 13px; */
+}
+.output spam {
+  position: absolute;
+  right: 40.5%;
+margin-top: 1.7rem;
+  color: coral;
+  cursor: pointer;
+}
+.output span{
+  position: absolute;
+  right: 42.5%;
+margin-top: 1.7rem;
+  color:rgb(240, 208, 208);
+  cursor: pointer;
+}
+
+.btn {
+  width: 5rem;
+  height: 2.7rem;
+  margin-top: 20px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 6rem;
+  border-style: none;
+  color: white;
+  background-color: rgb(96, 185, 248);
+}
+.box {
+  border-radius: 7px;
+  align-items: center;
+  box-shadow: black;
+  padding: 15px;
+  background-color: rgb(9, 59, 108);
+  box-shadow: 2px 2px 15px 2px;
+}
